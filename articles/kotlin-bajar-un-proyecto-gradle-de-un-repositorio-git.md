@@ -1,7 +1,3 @@
----
-layout: article
-title: Bajar un proyecto Kotlin - Gradle de un repositorio git
----
 
 # Descripción
 

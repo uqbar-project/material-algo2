@@ -1,9 +1,3 @@
----
-layout: article
-title: Kotlin - control de versiones
-categories: [kotlin, lenguaje, git, equipo, trabajo, versionado, control, VCS]
-featured: true
----
 
 # Los archivos a versionar en Git
 

@@ -1,8 +1,3 @@
----
-layout: article
-title: Testeo unitario avanzado
----
-
 
 Este artículo presenta algunas guías para desarrollar los casos de prueba, considerando que ya tienen una base de testeo unitario automatizado. Si estás buscando estudiar el tema en profundidad, te recomendamos el siguiente [apunte de Testing](https://docs.google.com/document/d/1zj-H_qPbUDvWsWhV2YLaPsnrI0MIkCuoeK_ilzSnxVI/edit?usp=sharing).
 

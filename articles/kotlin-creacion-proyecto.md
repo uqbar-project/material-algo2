@@ -1,9 +1,3 @@
----
-layout: article
-title: Kotlin - Cómo generar un proyecto desde cero
-categories: [xtend, nuevo proyecto, maven]
-featured: true
----
 
 Para realizar las prácticas, vas a crear un proyecto desde cero. 
 

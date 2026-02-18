@@ -1,9 +1,3 @@
----
-layout: article
-title: Introducción a Gradle
-categories: [gradle, build, integración, scm]
-featured: true
----
 
 ![Gradle logo](../images/gradle_logo2.png)
 

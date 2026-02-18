@@ -1,9 +1,3 @@
----
-layout: article
-title: Integración continua para materias con Kotlin
-categories: [github actions, ci, integracion, continua]
-featured: true
----
 
 # Integración continua (CI)
 

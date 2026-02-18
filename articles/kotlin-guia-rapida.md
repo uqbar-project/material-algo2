@@ -1,9 +1,3 @@
----
-layout: article
-title: Guia rapida de Kotlin
-categories: [kotlin, lenguaje, guia, referencia]
-featured: true
----
 
 La siguiente es una guía de _syntactic sugars_ de Kotlin, algunos de los cuales trabajan conceptos más profundos que veremos a lo largo de la materia.
 

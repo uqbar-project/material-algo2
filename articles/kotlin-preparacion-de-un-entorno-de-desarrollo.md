@@ -1,9 +1,3 @@
----
-layout: article
-title: Kotlin - Preparacion del entorno de desarrollo
-categories: [kotlin, entorno, instalacion]
-featured: true
----
 
 <img src="../images/Kotlin_logo.png" height="30%" width="30%">
 

@@ -1,7 +1,3 @@
----
-layout: article
-title: JDK vs. JRE
----
 
 ![jdk set of tools](../images/JDKandJREandJVM.png)
 
