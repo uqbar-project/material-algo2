@@ -5,7 +5,7 @@ categories: [kotlin, entorno, instalacion]
 featured: true
 ---
 
-<img src="../images/wiki/Kotlin_logo.png" height="30%" width="30%">
+<img src="../images/Kotlin_logo.png" height="30%" width="30%">
 
 # Instalación base
 
@@ -118,7 +118,7 @@ Si te interesa configurar un tema de tu interés, podés buscar plugins que cont
 
 En versiones recientes puede ser que te aparezca un _inlay_ que muestra información sobre los autores del código en el repositorio que estás trabajando, algo que puede resultar un poco molesto. Para deshabilitarlo, podés seguir [los pasos que se explican a continuación](https://youtrack.jetbrains.com/issue/IDEA-277340/Add-ability-to-turn-off-author-inlay-hints-from-Editor): `Settings -> Editor -> Inlay Hints -> Code vision` y desactivar la opción `Code author`. Luego cerrá los archivos que tengas abierto y volvelos a abrir nuevamente.
 
-![inlay hints](../images/wiki/inlay_hints.gif)
+![inlay hints](../images/inlay_hints.gif)
 
 ## Actualizaciones automáticas
 

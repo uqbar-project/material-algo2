@@ -5,7 +5,7 @@ categories: [gradle, build, integración, scm]
 featured: true
 ---
 
-![Gradle logo](../images/wiki/gradle_logo2.png)
+![Gradle logo](../images/gradle_logo2.png)
 
 # Introducción
 
@@ -105,7 +105,7 @@ En este caso, estamos definiendo que nuestro proyecto tiene como pre-requisitos:
 
 Una vez que hagamos un cambio en las dependencias, nos aparece el botón para sincronizar las definiciones del archivo con el IntelliJ, como vemos en este video:
 
-![descarga componente local](../images/wiki/gradle-add-dependency.gif)
+![descarga componente local](../images/gradle-add-dependency.gif)
 
 Al agregar una dependencia lo hacemos con el formato "group:artifact:version" y también definimos **el tipo de alcance** (scope), que puede ser
 
@@ -117,7 +117,7 @@ Al agregar una dependencia lo hacemos con el formato "group:artifact:version" y 
 
 ## Resumen general del manejo de dependencias de Gradle
 
-![manejo de dependencias de gradle](../images/wiki/gradle-dependencias.png)
+![manejo de dependencias de gradle](../images/gradle-dependencias.png)
 
 _Fuente:_ https://docs.gradle.org/current/userguide/dependency_management.html
 
@@ -127,7 +127,7 @@ Al hacer el build de nuestro proyecto
 - en caso contrario habrá que buscar en los repositorios definidos en nuestro proyecto, como Maven Central, google, etc. en el orden en que fueron definidos
 - si en ninguno de los repositorios fue posible encontrarlo, entonces recibiremos un mensaje de error cuando intentemos hacer build del proyecto:
 
-![gradle componente fallido](../images/wiki/gradle-componenteFallido.png)
+![gradle componente fallido](../images/gradle-componenteFallido.png)
 
 ## Dependencias transitivas
 
@@ -148,7 +148,7 @@ Noten que un proyecto comercial "normal" o mediano, puede incluir decenas y hast
 - **runtimeClasspath:** dependencias que tendremos a la hora de ejecutar nuestra aplicación en Kotlin, que incluye dependencias `runtimeOnly`. En Algoritmos 2 no vamos a levantar ninguna aplicación, pero sí más adelante en Algoritmos 3.
 - **testCompileClasspath**: dependencias que incluyen tanto fuentes como las marcadas como `testImplementation`, que sirven para ejecutar los tests.
 
-![Gradle - Dependencias transitivas](../images/wiki/gradle-transitive-dependencies.gif)
+![Gradle - Dependencias transitivas](../images/gradle-transitive-dependencies.gif)
 
 # Plugins
 
@@ -191,7 +191,7 @@ tasks.register("saludar") {
 
 Podemos ejecutarlo desde el menú de IntelliJ:
 
-![Gradle Task](../images/wiki/gradle_task.gif)
+![Gradle Task](../images/gradle_task.gif)
 
 Como se ve, es código Kotlin lo que se ejecuta. 
 

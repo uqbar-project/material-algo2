@@ -16,7 +16,7 @@ Desde IntelliJ tenemos dos opciones:
 
 Eso abre la siguiente ventana de diálogo:
 
-<img src="../images/wiki/kotlin-new-project-2025.png" alt="Creación de un nuevo proyecto en Kotlin" height="70%" width="70%">
+<img src="../images/kotlin-new-project-2025.png" alt="Creación de un nuevo proyecto en Kotlin" height="70%" width="70%">
 
 - El nombre del proyecto no debe contener espacios ni caracteres especiales (IntelliJ te va a avisar)
 - Todos los ejemplos que vas a descargar de la materia, así como los proyectos en los que vas a trabajar, se basan en la tecnología **Gradle**. Asegurate que tengas seleccionada la opción `Gradle` en `Build System` y `Kotlin` para la opción `Gradle DSL`.
@@ -37,7 +37,7 @@ Te dejamos un archivo con las dependencias base para la cursada de Algoritmos 2 
 
 Una vez que actualicemos ese archivo, desde IntelliJ nos aparecerán dos íconos para indicarnos que debemos sincronizar las definiciones de Gradle con las de nuestro IDE:
 
-<img src="../images/wiki/kotlin-actualizar-gradle.gif" alt="IntelliJ te avisa para sincronizar tu proyecto con la definición del archivo de Gradle" height="100%" width="100%">
+<img src="../images/kotlin-actualizar-gradle.gif" alt="IntelliJ te avisa para sincronizar tu proyecto con la definición del archivo de Gradle" height="100%" width="100%">
 
 Al hacer click automáticamente se actualizarán las dependencias. Este proceso es muy importante ya que de otra manera podremos experimentar problemas como imports que no funcionan, o métodos que no se pueden encontrar (por estar usando versiones diferentes a las que queremos realmente).
 
@@ -64,7 +64,7 @@ Vamos a crear nuestra primera clase Perro. Es importante notar que tendremos dos
 
 Por eso, nos ubicamos en `src/main/kotlin` y con un botón derecho, seleccionaremos `New > Kotlin Class/File`.
 
-<img src="../images/wiki/kotlin-nueva-clase2.gif" alt="Creando una nueva clase Kotlin en IntelliJ" height="100%" width="100%">
+<img src="../images/kotlin-nueva-clase2.gif" alt="Creando una nueva clase Kotlin en IntelliJ" height="100%" width="100%">
 
 
 ## Shortcuts de IntelliJ
@@ -73,7 +73,7 @@ A continuación te dejamos algunas recomendaciones para que tu estadía en Intel
 
 - "Cómo era para...?" Lo mejor es preguntarle al propio IDE, **presionando dos veces `Shift` + `Shift`**. Desde esa ventana de diálogo podés buscar cualquier palabra clave, como "New", "Save", "Run", "Select".
 
-<img src="../images/wiki/intellij-shiftShift.gif" alt="Presionando Shift dos veces tenés acceso al menú contextual para buscar cualquier opción" height="100%" width="100%">
+<img src="../images/intellij-shiftShift.gif" alt="Presionando Shift dos veces tenés acceso al menú contextual para buscar cualquier opción" height="100%" width="100%">
 
 <!-- -->
 
@@ -81,7 +81,7 @@ ___
 
 - Presionar dos veces `Ctrl` + `Ctrl` te permite ejecutar cualquier comando válido desde el componente donde estés ubicado.
 
-<img src="../images/wiki/intellij-ctrlCtrl.gif" alt="Presionando Ctrl dos veces tenés acceso al menú contextual para ejecutar test, programas, etc." height="100%" width="100%">
+<img src="../images/intellij-ctrlCtrl.gif" alt="Presionando Ctrl dos veces tenés acceso al menú contextual para ejecutar test, programas, etc." height="100%" width="100%">
 
 <!-- -->
 
@@ -89,11 +89,11 @@ ___
 
 - `Alt` + `Enter` activa sugerencias tanto para errores como para cosas que se pueden mejorar (_warnings_).
 
-<img src="../images/wiki/intellij-altEnter.gif" alt="Presionando Alt + Enter sobre un error o warning, el IDE nos ofrece diferentes formas de resolverlos" height="100%" width="100%">
+<img src="../images/intellij-altEnter.gif" alt="Presionando Alt + Enter sobre un error o warning, el IDE nos ofrece diferentes formas de resolverlos" height="100%" width="100%">
 
 Presionando la tecla `F2` te podés mover al siguiente lugar del archivo donde hay un error o warning:
 
-<img src="../images/wiki/intelliJ-altEnterF2.gif" alt="Moviéndose a través de errores y warnings mediante F2" height="100%" width="100%">
+<img src="../images/intelliJ-altEnterF2.gif" alt="Moviéndose a través de errores y warnings mediante F2" height="100%" width="100%">
 
 <!-- -->
 
@@ -101,7 +101,7 @@ ___
 
 - Nunca nos olvidemos de que nuestro código tiene que ser entendible para el resto de la humanidad y lo mejor es pedirle al IDE que lo haga mediante `Ctrl` + `Alt` + `L` o bien con `Ctrl` + `Alt` + `Shift` + `L` (te abre una ventana de diálogo con más opciones). 
 
-<img src="../images/wiki/intellij-formatting2.gif" alt="Formateando un archivo Kotlin" height="100%" width="100%">
+<img src="../images/intellij-formatting2.gif" alt="Formateando un archivo Kotlin" height="100%" width="100%">
 
 **Tip**: si estás trabajando en una distribución de Linux que utiliza KDE, el shortcut `Ctrl` + `Alt` + `L` es tomado por el sistema como la acción para bloquear la pantalla. Para desactivarlo seguí [estas instrucciones](https://stackoverflow.com/questions/211043/disable-global-ctrl-alt-l-hotkey-in-kde).
 
@@ -115,7 +115,7 @@ Por último, dos muy buenas opciones para seleccionar elementos son
 - `Ctrl` + `Alt` + `Shift` + `J`: selecciona todas las ocurrencias de un elemento (para renombrarlo existe otro shortcut, `Shift` + `F6`)
 - `Alt` + `J`: permite ir seleccionando elementos similares uno por uno.
 
-<img src="../images/wiki/intellij-selection.gif" alt="Seleccionando elementos dentro de un archivo" height="100%" width="100%">
+<img src="../images/intellij-selection.gif" alt="Seleccionando elementos dentro de un archivo" height="100%" width="100%">
 
 
 <!-- -->

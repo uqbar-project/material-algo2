@@ -35,7 +35,7 @@ El servidor de integración continua será el que provee Github, y tiene las ven
 <br>
 <!-- -->
 
-![GH Actions - repo](../images/wiki/kotlin-ci-gh-actions-repo.gif)
+![GH Actions - repo](../images/kotlin-ci-gh-actions-repo.gif)
 
 <!-- -->
 
@@ -84,7 +84,7 @@ El _badge_ es un indicador visual de cómo resultó el último build, que ubicar
 <br>
 <!-- -->
 
-![Kotlin CI - Crear status badge](../images/wiki/kotlin-ci-gh-actions-badge.gif)
+![Kotlin CI - Crear status badge](../images/kotlin-ci-gh-actions-badge.gif)
 
 <!-- -->
 <br>

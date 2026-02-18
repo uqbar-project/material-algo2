@@ -304,7 +304,7 @@ Kotlin cuenta con inferencia de tipos, lo que permite
 
 Vemos un ejemplo en vivo, mostrando cómo cambia la solapa "Structure" (disponible mediante `Alt`+ `7`) cuando modificamos el código:
 
-![Kotlin Type Inference](../images/wiki/kotlin-typeInference.gif)
+![Kotlin Type Inference](../images/kotlin-typeInference.gif)
 
 Volviendo a la inferencia de tipos, es fundamental poder contar con un lenguaje que tenga chequeo de tipos para detectar errores en forma temprana pero **que no me obligue a definir los tipos todo el tiempo**. La definición de tipos es obligatoria cuando la definición pueda resultar ambigua para Kotlin, por ejemplo cuando definas un método que retorna un valor pero no lo anotes en la definición:
 
@@ -317,7 +317,7 @@ fun resetearEnergia() {
 
 En ese caso el IDE te mostrará un error y lo podés solucionar fácilmente indicando el tipo del valor a retornar (o bien eliminando la instrucción `return`):
 
-![Kotlin Fix method return](../images/wiki/kotlin-fixMethodReturn.gif)
+![Kotlin Fix method return](../images/kotlin-fixMethodReturn.gif)
 
 
 # Instanciación y constructores
@@ -376,7 +376,7 @@ Por lo general solo es necesario definir un constructor por defecto, pero en cas
 
 A continuación vemos cómo definir Golondrina como subclase de Ave.
 
-![image](../images/wiki/kotlin-inheritance.gif)
+![image](../images/kotlin-inheritance.gif)
 
 ```kotlin
 open class Ave() {
@@ -442,13 +442,13 @@ class Golondrina(energia: Int) : Ave(energia) {
 
 Si bien esto puede convertirse en algo tedioso, veremos que el IDE nos simplifica bastante esta tarea, utilizando `Alt` + `Enter` para aceptar la sugerencia:
 
-![Kotlin - Delegación de constructores](../images/wiki/kotlin-constructorInheritance.gif)
+![Kotlin - Delegación de constructores](../images/kotlin-constructorInheritance.gif)
 
 # Clases y métodos abstractos
 
 Podemos definir a Ave como clase abstracta, esto producirá que no podamos instanciar objetos Ave. Una clase abstracta puede definir solo la interfaz de un método, lo que se conoce como método abstracto. Veamos el siguiente ejemplo:
 
-![image](../images/wiki/kotlin-abstractClass.gif)
+![image](../images/kotlin-abstractClass.gif)
 
 En el ejemplo:
 
@@ -617,11 +617,11 @@ Para más información pueden consultar [la página oficial de lambdas de Kotlin
 
 Los valores nulos son siempre un dolor de cabeza, Kotlin es uno de los primeros lenguajes orientados a objetos que nace con una estrategia para mitigarlos. En principio una referencia definida como String o Int **no acepta valores nulos**.
 
-![Kotlin - String no acepta null](../images/wiki/kotlin-stringNotNull.png)
+![Kotlin - String no acepta null](../images/kotlin-stringNotNull.png)
 
 Ok, entonces podríamos pensar que una solución es sacar el `null` explícito, y si como dijo Iván Noble algunos errores son deliciosos, sin dudas uno es éste:
 
-![Kotlin - no permite dejar sin inicializar](../images/wiki/kotlin-stringUninitialized1.png)
+![Kotlin - no permite dejar sin inicializar](../images/kotlin-stringUninitialized1.png)
 
 Debemos inicializar la referencia, ¡exacto! porque de otra manera lo que pasa es que arrastramos un String que puede ser `null` por todo nuestro código, solo por no tomar la decisión de que ese valor **nunca puede ser nulo**.
 
@@ -685,7 +685,7 @@ class Persona {
 
 El inconveniente es que para saber si una persona tiene nombre largo, tenemos que considerar ahora si tiene un nombre nulo:
 
-![Kotlin - Non null safe operation](../images/wiki/kotlin-nonNullSafe.png)
+![Kotlin - Non null safe operation](../images/kotlin-nonNullSafe.png)
 
 ### Operador !!
 
@@ -744,7 +744,7 @@ if (estudioso !== null) {
 
 pero como vemos es bastante menos tedioso de escribir. De todas maneras cuando sea posible es una buena práctica evitar la manipulación de tipos de datos con valores nulos, porque no siempre se puede resolver mágicamente con un `?` cualquier operación:
 
-![Kotlin - null safe no válido](../images/wiki/kotlin-nullSafeOperatorNotAllowed.png)
+![Kotlin - null safe no válido](../images/kotlin-nullSafeOperatorNotAllowed.png)
 
 Entonces el consejo que te dejamos es **solo dejar valores que acepten nulls cuando el negocio realmente lo necesite**. Por ejemplo: si un perro puede tener dueño o no, entonces el atributo puede ser nullable.
 

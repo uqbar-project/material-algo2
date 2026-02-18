@@ -1,5 +1,5 @@
 
-<img src="../images/wiki/Kotlin_logo.png" height="40%" width="40%">
+<img src="../images/Kotlin_logo.png" height="40%" width="40%">
 
 A continuación te vamos a dejar los pasos de instalación del entorno Kotlin para las materias Algoritmos 2, Algoritmos 3 y Programación con Herramientas Modernas. Seguí metódicamente los puntos y no saltees las verificaciones para asegurarte que en tu máquina tengas todas las herramientas necesarias para trabajar.
 

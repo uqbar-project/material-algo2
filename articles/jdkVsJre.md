@@ -3,7 +3,7 @@ layout: article
 title: JDK vs. JRE
 ---
 
-![jdk set of tools](../images/wiki/JDKandJREandJVM.png)
+![jdk set of tools](../images/JDKandJREandJVM.png)
 
 Cuando nos piden "instalar Java" (a secas) en nuestra máquina, es importante tener en claro la diferencia entre:
 
@@ -17,7 +17,7 @@ Para tener el listado completo de las herramientas que trae OpenJDK (una de las 
 En este diagrama vemos el proceso de desarrollo de un programa Java desde que lo escribimos hasta que se ejecuta en una máquina (nuestra o de un usuario). Para compilar el programa Java a un código intermedio o _bytecode_ necesitamos el ejecutable `javac`, que viene con el JDK. El archivo `.class` generado puede ser interpretado en cualquier otro sistema operativo, solo necesitamos tener el JRE adecuado. Ejecutamos entonces el programa `java` (o `javaw` en Windows) pasando como argumento nuestro archivo `.class` para que el bytecode sea interpretado al código de la máquina.
 
 <br/>
-![proceso de JDK](../images/wiki/JDKvsJRE.png)
+![proceso de JDK](../images/JDKvsJRE.png)
 <br/>
 
 Tu IDE integra todas estas herramientas de manera que cada vez que grabás un archivo Java realiza la compilación para generar el `.class` y ejecutarlo desde el mismo entorno. Por eso recordemos que un IDE es un _Integrated Development Environment_.
@@ -29,7 +29,7 @@ Haciendo la aclaración de que hay variantes de Kotlin que no necesitan la JDK (
 De esa manera cuando generamos nuestro archivo `.kt` con el código fuente, el compilador automáticamente genera el bytecode asociado (el `.class`, que está en la carpeta `build/classes/kotlin`) utilizando tanto el compilador de Kotlin como las herramientas que trae la JDK.
 
 <br/>
-![proceso de desarrollo en Kotlin](../images/wiki/Kotlin_JDK_JRE.png)
+![proceso de desarrollo en Kotlin](../images/Kotlin_JDK_JRE.png)
 <br/>
 
 Como estamos trabajando dentro de un IDE, este paso adicional es transparente para nosotros. Solo debemos tener en cuenta que además del plugin de Kotlin, necesitaremos tener instalada una JDK para que el proceso de fondo convierta los archivos `.kt` a `.class`.
