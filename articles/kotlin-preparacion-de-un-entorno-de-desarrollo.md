@@ -38,7 +38,7 @@ Te dejamos [un video que explica cómo hacerlo para Windows](https://youtu.be/4W
 
 > **IMPORTANTE:** tenés que instalar una JDK, no una JRE (Java Runtime Environment) que solo te permite ejecutar programas Java ya compilados. Para saber si tenés una JDK, deberías ir al directorio de instalación y en la carpeta `bin` debe estar un programa llamado `javac`, que es el compilador de Java.
 
-![image](../images/jdkVsJre.png)
+![image](../images/javac.png)
 
 Si no tenés ese programa, no vas a poder pasar tus objetos a código ejecutable en el entorno Kotlin: la solución es muy simple, descargá e instalá una JDK. Para más información te recomendamos [esta página](jdkVsJre.md)
 
