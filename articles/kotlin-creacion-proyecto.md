@@ -20,7 +20,7 @@ Eso abre la siguiente ventana de diálogo:
 
 - El nombre del proyecto no debe contener espacios ni caracteres especiales (IntelliJ te va a avisar)
 - Todos los ejemplos que vas a descargar de la materia, así como los proyectos en los que vas a trabajar, se basan en la tecnología **Gradle**. Asegurate que tengas seleccionada la opción `Gradle` en `Build System` y `Kotlin` para la opción `Gradle DSL`.
-- Revisamos que la opción en `Project JDK` por defecto sea la **JDK 21**, en caso contrario debemos ir a [configurar la versión de Java](./kotlin-preparacion-de-un-entorno-de-desarrollo..md)
+- Revisamos que la opción en `Project JDK` por defecto sea la **JDK 21**, en caso contrario debemos ir a [configurar la versión de Java](./kotlin-preparacion-de-un-entorno-de-desarrollo.md)
 - Te recomendamos que el group id sea `ar.edu.zzzz.xxx` donde `zzzz` sea la universidad y `xxx` sea la materia que estás cursando. Por ejemplo `ar.edu.unsam.algo2` para la materia Algoritmos 2 de UNSAM. Esta opción está disponible si expandís el grupo "Advanced settings".
 - El nombre del artefacto (Artifact ID) es el nombre de tu proyecto
 
@@ -53,7 +53,7 @@ Por el momento, lo que necesitás es únicamente copiar [este archivo](./algo2.b
         └── build.yml
 ```
 
-Para más información podés consultar la página [de integración continua para proyectos en Kotlin](./kotlin-ci..md).
+Para más información podés consultar la página [de integración continua para proyectos en Kotlin](./kotlin-ci.md).
 
 ## Primeros pasos
 
@@ -151,7 +151,7 @@ De esta manera, logramos mayor granularidad en la organización de nuestras clas
 # Links útiles
 
 * [Video en youtube que explica cómo crear un proyecto Kotlin desde cero](https://youtu.be/A29JekWnlJw)
-* [Cómo trabajar con el control de versiones](kotlin-amigandonos-git..md)
-* [Cómo importar un proyecto Kotlin con Gradle](kotlin-bajar-un-proyecto-gradle-de-un-repositorio-git..md)
-* [Volver al menú principal del entorno Kotlin](kotlin-principal..md)
+* [Cómo trabajar con el control de versiones](kotlin-amigandonos-git.md)
+* [Cómo importar un proyecto Kotlin con Gradle](kotlin-bajar-un-proyecto-gradle-de-un-repositorio-git.md)
+* [Volver al menú principal del entorno Kotlin](kotlin-principal.md)
 

@@ -5,9 +5,9 @@ title: Bajar un proyecto Kotlin - Gradle de un repositorio git
 
 # Descripción
 
-Este artículo asume la presencia de un entorno de trabajo Kotlin. En caso de que todavía no tengas instaladas esas herramientas, te recomendamos leer [estas instrucciones](kotlin-preparacion-de-un-entorno-de-desarrollo..md).
+Este artículo asume la presencia de un entorno de trabajo Kotlin. En caso de que todavía no tengas instaladas esas herramientas, te recomendamos leer [estas instrucciones](kotlin-preparacion-de-un-entorno-de-desarrollo.md).
 
-También se asume la preexistencia de un proyecto construido con Gradle y publicado en un repositorio Git, si lo que se desea es crear el proyecto en lugar de descargarlo, aquí están las instrucciones para la [creación de un proyecto](kotlin-creacion-proyecto..md) y su posterior publicación en el repositorio.
+También se asume la preexistencia de un proyecto construido con Gradle y publicado en un repositorio Git, si lo que se desea es crear el proyecto en lugar de descargarlo, aquí están las instrucciones para la [creación de un proyecto](kotlin-creacion-proyecto.md) y su posterior publicación en el repositorio.
 
 El proceso tiene los siguientes pasos, que se detallan a continuación:
 
@@ -149,6 +149,6 @@ Si necesitamos movernos a otra rama, eso se puede hacer mediante la opción "Git
 
 # Links útiles
 
-* [Cómo trabajar con el control de versiones](kotlin-amigandonos-git..md)
-* [Cómo crear un proyecto Kotlin con Gradle](kotlin-creacion-proyecto..md)
-* [Volver al menú principal del entorno Kotlin](kotlin-principal..md)
+* [Cómo trabajar con el control de versiones](kotlin-amigandonos-git.md)
+* [Cómo crear un proyecto Kotlin con Gradle](kotlin-creacion-proyecto.md)
+* [Volver al menú principal del entorno Kotlin](kotlin-principal.md)

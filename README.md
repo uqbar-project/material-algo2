@@ -7,7 +7,7 @@
 
 ## Páginas
 
-- [Testeo unitario avanzado](articles/kotest-testeo-unitario-avanzado..md)
+- [Testeo unitario avanzado](articles/kotest-testeo-unitario-avanzado.md)
 - [Cómo corregir un error en runtime](https://github.com/uqbar-project/eg-seguros-kotlin), a partir de un ejemplo en github
 
 ## Links

@@ -94,4 +94,4 @@ El _badge_ es un indicador visual de cómo resultó el último build, que ubicar
 # Links útiles
 
 * [Video en youtube que explica cómo es la integración continua con Kotlin y Github Actions](https://youtu.be/B6W9QzOutkc)
-* [Volver al menú principal del entorno Kotlin](kotlin-principal..md)
+* [Volver al menú principal del entorno Kotlin](kotlin-principal.md)
