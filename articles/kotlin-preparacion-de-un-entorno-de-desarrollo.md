@@ -16,7 +16,7 @@ Primero instalaremos el compilador de Java.
 Ingresamos a una de las siguientes direcciones, y descargamos la **JDK 21**, que es la versión que manejamos desde 2024:
 
 * **(Recomendado)** [Adoptium Eclipse Temurin](https://adoptium.net/es/temurin/releases/?version=21) - JDK provisto por la Fundación Eclipse, y con apoyo activo al proyecto de parte de multiples compañías como Microsoft y RedHat (entre otras).
-* [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/downloads-list.md) - Otra variante de JDK distribuida (y con soporte a largo plazo) por parte de Amazon. Si bien se encuentra optimizada para sus sistemas de AWS (Amazon Web Services), es una alternativa que funciona sin inconvenientes en sistemas tradicionales, para los que ofrece descargas.
+* [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/downloads-list.html) - Otra variante de JDK distribuida (y con soporte a largo plazo) por parte de Amazon. Si bien se encuentra optimizada para sus sistemas de AWS (Amazon Web Services), es una alternativa que funciona sin inconvenientes en sistemas tradicionales, para los que ofrece descargas.
 
 
 ### Pasos de instalación
@@ -26,7 +26,7 @@ Una vez descargado el binario en una carpeta (supongamos que es `C:\jdk21`), hay
 - JAVA_HOME: tiene que apuntar a `C:\jdk21`)
 - PATH: hay que incorporarle `C:\jdk21\bin` (cuidando de no borrar lo que ya está)
 
-Te dejamos [un video que explica cómo hacerlo para Windows](https://youtu.be/BG2OSaxWX4E) (el procedimiento es similar para MacOS / Linux)
+Te dejamos [un video que explica cómo hacerlo para Windows](https://youtu.be/4WKo13f2Qpc?si=YVt7_i9NTR1V1uCu) (el procedimiento es similar para MacOS / Linux)
 
 
 ### Chequeos posteriores a la instalación
@@ -38,7 +38,7 @@ Te dejamos [un video que explica cómo hacerlo para Windows](https://youtu.be/BG
 
 > **IMPORTANTE:** tenés que instalar una JDK, no una JRE (Java Runtime Environment) que solo te permite ejecutar programas Java ya compilados. Para saber si tenés una JDK, deberías ir al directorio de instalación y en la carpeta `bin` debe estar un programa llamado `javac`, que es el compilador de Java.
 
-![image](../images/languages/jdkVsJre.png)
+![image](../images/jdkVsJre.png)
 
 Si no tenés ese programa, no vas a poder pasar tus objetos a código ejecutable en el entorno Kotlin: la solución es muy simple, descargá e instalá una JDK. Para más información te recomendamos [esta página](jdkVsJre.md)
 
