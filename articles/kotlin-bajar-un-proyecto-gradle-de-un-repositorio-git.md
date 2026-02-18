@@ -11,7 +11,7 @@ También se asume la preexistencia de un proyecto construido con Gradle y public
 
 El proceso tiene los siguientes pasos, que se detallan a continuación:
 
-![Git](/img/languages/git_clone3.png)
+![Git](../images/languages/git_clone3.png)
 
 - Clonar el proyecto desde el repositorio remoto y alojarlo en nuestro espacio de trabajo local.
 - Hacer el build del proyecto Kotlin en IntelliJ tomando como base las definiciones de Gradle.
@@ -64,11 +64,11 @@ Para importar un proyecto en IntelliJ una vez descargado
 
 Nos puede aparecer una ventana de diálogo para que confiemos en el proyecto:
 
-![IntelliJ confiar en el proyecto](/img/wiki/importProject_10.png)
+![IntelliJ confiar en el proyecto](../images/wiki/importProject_10.png)
 
 Aceptamos seleccionando la opción "Trust project" y entonces se importará el proyecto, al detectar que está hecho en Gradle se utilizará el archivo correspondiente para hacer el build. Te recomendamos que actives el check para que IntelliJ confíe en todos los proyectos que te descargás en la carpeta raíz de la materia.
 
-![IntelliJ build del proyecto](/img/wiki/importProject_11.png)
+![IntelliJ build del proyecto](../images/wiki/importProject_11.png)
 
 ¡Y ya podemos comenzar a trabajar!
 
@@ -86,13 +86,13 @@ En caso de utilizar directamente el plugin de IntelliJ, te recomendamos integrar
 
 Aparece esta ventana de diálogo, seleccionamos Github:
 
-![Github - selección en IntelliJ](/img/wiki/importProject_02.png)
+![Github - selección en IntelliJ](../images/wiki/importProject_02.png)
 
 ___
 
 Se abre una ventana de un navegador donde nos pide autorización para acceder a nuestra cuenta de github:
 
-![Github - autorización](/img/wiki/importProject_03.png)
+![Github - autorización](../images/wiki/importProject_03.png)
 
 <!-- -->
 
@@ -100,11 +100,11 @@ ___
 
 Confirmamos qué cuenta de Github es la que vamos a integrar
 
-![Github - selección de la cuenta 1](/img/wiki/importProject_04.png)
+![Github - selección de la cuenta 1](../images/wiki/importProject_04.png)
 
 y presionamos el botón "Authorize JetBrains":
 
-![Github - selección de la cuenta 2](/img/wiki/importProject_06.png)
+![Github - selección de la cuenta 2](../images/wiki/importProject_06.png)
 
 
 <!-- -->
@@ -112,7 +112,7 @@ ___
 
 Ingresamos la contraseña
 
-![Github - password](/img/wiki/importProject_07.png)
+![Github - password](../images/wiki/importProject_07.png)
 
 <!-- -->
 ___
@@ -121,7 +121,7 @@ ___
 
 Una vez finalizado este paso ya podemos cerrar el navegador y volver a IntelliJ:
 
-![Github - cerrar navegador](/img/wiki/importProject_08.png)
+![Github - cerrar navegador](../images/wiki/importProject_08.png)
 
 <!-- -->
 
@@ -129,19 +129,19 @@ Una vez finalizado este paso ya podemos cerrar el navegador y volver a IntelliJ:
 
 Una vez que tengamos asociado el usuario el proceso es muy sencillo, porque tendremos acceso a todos los repositorios 
 
-![IntelliJ clonar proyecto](/img/wiki/importProject_09.png)
+![IntelliJ clonar proyecto](../images/wiki/importProject_09.png)
 
 Aquí podemos hacer una búsqueda y nos aparecerán todos los repositorios a los que tenemos acceso. Por último, solo debemos seleccionar el directorio donde vamos a bajar localmente nuestro proyecto para trabajar con el IDE y presionar el botón "Clone". Nos puede aparecer una ventana de diálogo para que confiemos en el proyecto:
 
-![IntelliJ confiar en el proyecto](/img/wiki/importProject_10.png)
+![IntelliJ confiar en el proyecto](../images/wiki/importProject_10.png)
 
 Aceptamos seleccionando la opción "Trust project" y entonces se importará el proyecto, al detectar que está hecho en Gradle se utilizará el archivo correspondiente para hacer el build. Te recomendamos que actives el check para que IntelliJ confíe en todos los proyectos que te descargás en la carpeta raíz de la materia.
 
-![IntelliJ build del proyecto](/img/wiki/importProject_11.png)
+![IntelliJ build del proyecto](../images/wiki/importProject_11.png)
 
 Si necesitamos movernos a otra rama, eso se puede hacer mediante la opción "Git" > "Branches" y seleccionando la rama que quieras + Checkout. También tenés la opción de hacer click sobre la rama que se muestra en la parte inferior del IDE:
 
-![IntelliJ cambiar la rama de Git](/img/wiki/intellij_changingBranch.gif)
+![IntelliJ cambiar la rama de Git](../images/wiki/intellij_changingBranch.gif)
 
 ¡Y ya podemos comenzar a trabajar!
 

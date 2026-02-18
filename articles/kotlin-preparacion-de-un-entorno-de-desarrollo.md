@@ -5,7 +5,7 @@ categories: [kotlin, entorno, instalacion]
 featured: true
 ---
 
-<img src="/img/wiki/Kotlin_logo.png" height="30%" width="30%">
+<img src="../images/wiki/Kotlin_logo.png" height="30%" width="30%">
 
 # Instalación base
 
@@ -44,7 +44,7 @@ Te dejamos [un video que explica cómo hacerlo para Windows](https://youtu.be/BG
 
 > **IMPORTANTE:** tenés que instalar una JDK, no una JRE (Java Runtime Environment) que solo te permite ejecutar programas Java ya compilados. Para saber si tenés una JDK, deberías ir al directorio de instalación y en la carpeta `bin` debe estar un programa llamado `javac`, que es el compilador de Java.
 
-![image](/img/languages/jdkVsJre.png)
+![image](../images/languages/jdkVsJre.png)
 
 Si no tenés ese programa, no vas a poder pasar tus objetos a código ejecutable en el entorno Kotlin: la solución es muy simple, descargá e instalá una JDK. Para más información te recomendamos [esta página](jdkVsJre.html)
 
@@ -118,7 +118,7 @@ Si te interesa configurar un tema de tu interés, podés buscar plugins que cont
 
 En versiones recientes puede ser que te aparezca un _inlay_ que muestra información sobre los autores del código en el repositorio que estás trabajando, algo que puede resultar un poco molesto. Para deshabilitarlo, podés seguir [los pasos que se explican a continuación](https://youtrack.jetbrains.com/issue/IDEA-277340/Add-ability-to-turn-off-author-inlay-hints-from-Editor): `Settings -> Editor -> Inlay Hints -> Code vision` y desactivar la opción `Code author`. Luego cerrá los archivos que tengas abierto y volvelos a abrir nuevamente.
 
-![inlay hints](/img/wiki/inlay_hints.gif)
+![inlay hints](../images/wiki/inlay_hints.gif)
 
 ## Actualizaciones automáticas
 

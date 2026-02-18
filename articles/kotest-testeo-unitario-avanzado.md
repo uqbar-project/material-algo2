@@ -130,7 +130,7 @@ class Flota : Cliente() {
 
 Cuando ejecutamos el test tenemos muy poca información relevante:
 
-![Kotest - nombre de variable no representativa](/img/wiki/kotest-variable-no-representativa.png)
+![Kotest - nombre de variable no representativa](../images/wiki/kotest-variable-no-representativa.png)
 
 - la variable `pereyra` no está revelando que es un cliente de flota con muchos autos
 - y tampoco está claro por qué no puede cobrar el siniestro el cliente. 
@@ -153,7 +153,7 @@ describe("Dada una flota con muchos autos") {
 
 Ahora al fallar el test sabemos más cosas:
 
-![mas expresividad en los tests](/img/wiki/kotest-testeo-expresivo.png)
+![mas expresividad en los tests](../images/wiki/kotest-testeo-expresivo.png)
 
 - el test con su stack trace, pero también
 - qué es lo que estamos testeando, tratando de no entrar en detalles para no duplicar lo que dice el código
