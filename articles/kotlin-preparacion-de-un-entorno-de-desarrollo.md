@@ -22,7 +22,7 @@ Primero instalaremos el compilador de Java.
 Ingresamos a una de las siguientes direcciones, y descargamos la **JDK 21**, que es la versión que manejamos desde 2024:
 
 * **(Recomendado)** [Adoptium Eclipse Temurin](https://adoptium.net/es/temurin/releases/?version=21) - JDK provisto por la Fundación Eclipse, y con apoyo activo al proyecto de parte de multiples compañías como Microsoft y RedHat (entre otras).
-* [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/downloads-list.html) - Otra variante de JDK distribuida (y con soporte a largo plazo) por parte de Amazon. Si bien se encuentra optimizada para sus sistemas de AWS (Amazon Web Services), es una alternativa que funciona sin inconvenientes en sistemas tradicionales, para los que ofrece descargas.
+* [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/downloads-list..md) - Otra variante de JDK distribuida (y con soporte a largo plazo) por parte de Amazon. Si bien se encuentra optimizada para sus sistemas de AWS (Amazon Web Services), es una alternativa que funciona sin inconvenientes en sistemas tradicionales, para los que ofrece descargas.
 
 
 ### Pasos de instalación
@@ -46,7 +46,7 @@ Te dejamos [un video que explica cómo hacerlo para Windows](https://youtu.be/BG
 
 ![image](../images/languages/jdkVsJre.png)
 
-Si no tenés ese programa, no vas a poder pasar tus objetos a código ejecutable en el entorno Kotlin: la solución es muy simple, descargá e instalá una JDK. Para más información te recomendamos [esta página](jdkVsJre.html)
+Si no tenés ese programa, no vas a poder pasar tus objetos a código ejecutable en el entorno Kotlin: la solución es muy simple, descargá e instalá una JDK. Para más información te recomendamos [esta página](jdkVsJre..md)
 
 ## IntelliJ IDEA
 
@@ -112,7 +112,7 @@ Alternativamente se puede instalar abriendo el menú `File > Settings`, abriendo
 
 ## Plugins de temas (Themes)
 
-Si te interesa configurar un tema de tu interés, podés buscar plugins que contengan la palabra "Theme" en el Marketplace, como se describe en [esta página](https://www.jetbrains.com/help/idea/managing-plugins.html). Luego podrás [seleccionar el tema de tu preferencia](https://www.jetbrains.com/help/idea/user-interface-themes.html#tips).
+Si te interesa configurar un tema de tu interés, podés buscar plugins que contengan la palabra "Theme" en el Marketplace, como se describe en [esta página](https://www.jetbrains.com/help/idea/managing-plugins..md). Luego podrás [seleccionar el tema de tu preferencia](https://www.jetbrains.com/help/idea/user-interface-themes..md#tips).
 
 ## Inlays
 
@@ -128,5 +128,5 @@ Una vez instalado IntelliJ, el sistema te avisa cuando hay actualizaciones. Nues
 
 # Links útiles
 
-- [Siguiente paso: Creación de un proyecto en Kotlin](kotlin-creacion-proyecto.html)
-- [Volver al menú principal del entorno Kotlin](kotlin-principal.html)
+- [Siguiente paso: Creación de un proyecto en Kotlin](kotlin-creacion-proyecto..md)
+- [Volver al menú principal del entorno Kotlin](kotlin-principal..md)

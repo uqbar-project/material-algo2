@@ -11,7 +11,7 @@ No todos los archivos deben subirse al repo. Como regla general no deberían sub
 
 - los binarios que se generan a partir del código fuente de ustedes (el directorio `build`). Ocupan espacio en el repositorio y se corre el riesgo de estar trabajando con versiones desactualizadas.
 - archivos de configuración propios de IntelliJ (el directorio `.idea`), que se pueden armar en base al `build.gradle.kts` cuando se importa el proyecto en nuestra máquina la primera vez.
-- archivos que genera _Gradle_ localmente (el directorio `.gradle`, distinto al `gradle` que es donde está el script ejecutable o [wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html)). Si querés conocer más en profundidad la estructura de las carpetas que utiliza Gradle, te recomendamos [esta página](https://docs.gradle.org/current/userguide/directory_layout.html).
+- archivos que genera _Gradle_ localmente (el directorio `.gradle`, distinto al `gradle` que es donde está el script ejecutable o [wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper..md)). Si querés conocer más en profundidad la estructura de las carpetas que utiliza Gradle, te recomendamos [esta página](https://docs.gradle.org/current/userguide/directory_layout..md).
 
 ## Archivos a ignorar
 
@@ -98,5 +98,5 @@ En resumen:
 
 # Links útiles
 
-- [Siguiente paso: Guía rápida de Kotlin](kotlin-guia-rapida.html)
-- [Volver al menú principal del entorno Kotlin](kotlin-principal.html)
+- [Siguiente paso: Guía rápida de Kotlin](kotlin-guia-rapida..md)
+- [Volver al menú principal del entorno Kotlin](kotlin-principal..md)

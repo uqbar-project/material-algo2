@@ -74,7 +74,7 @@ Las **dependencias** son útiles para poder acceder a códigos escritos por otro
 Ahora bien, ¿desde dónde descargamos las versiones 4.4.3 y 5.1.0 de io.kotest:kotest-assertions-core? Existen para eso **repositorios remotos** donde se publican artefactos:
 
 - **Maven Central**, que es el repositorio principal donde están subidos artefactos publicados con tecnología [Maven](https://maven.apache.org/). Las dependencias más importantes suelen estar en este repositorio y tenés una [página de búsqueda de artefactos](https://search.maven.org/), muy útil cuando necesitamos bajarnos "Mockito", "Log4J", "Kotest" o cualquier otra dependencia.
-- para los proyectos en Kotlin, otro repositorio importante es el de [**Google** (también en Maven)](https://maven.google.com/web/index.html) ya que contiene componentes relacionados con el desarrollo de Android, entre otros.
+- para los proyectos en Kotlin, otro repositorio importante es el de [**Google** (también en Maven)](https://maven.google.com/web/index..md) ya que contiene componentes relacionados con el desarrollo de Android, entre otros.
 - hay eventualmente otros repositorios remotos e incluso podés crear un servidor que funcione como repositorio de artefactos. Podés investigar [Artifactory o JFrog](https://jfrog.com/artifactory/), por el momento es suficiente con saber simplemente desde dónde estamos descargando nuestros componentes.
 
 En el archivo `build.gradle.kts` podés ver cómo se referencian los repositorios remotos:
@@ -112,14 +112,14 @@ Al agregar una dependencia lo hacemos con el formato "group:artifact:version" y 
 - **implementation**: el componente es necesario para hacer el _build_ de nuestro proyecto.
 - **testImplementation**: el componente es necesario para ejecutar los tests de nuestro proyecto.
 - **runtimeOnly**: el componente se utiliza únicamente cuando tenemos levantada la aplicación. Esta variante es útil cuando trabajamos con objetos de resguardo (_stubs_ o _mocks_) para ejecutar los tests (`testImplementation`) pero queremos tener un componente real que envía mails en la versión productiva (`runtimeOnly`).
-- otras variantes pueden estudiarse leyendo [la documentación del plugin de Gradle para Java](https://docs.gradle.org/current/userguide/java_library_plugin.html#sec:java_library_configurations_graph)
-- **_custom_**: para les interesades dejamos un artículo que explica [cómo definir configuraciones propias extendiendo el modelo de Gradle](https://docs.gradle.org/current/userguide/declaring_dependencies.html)
+- otras variantes pueden estudiarse leyendo [la documentación del plugin de Gradle para Java](https://docs.gradle.org/current/userguide/java_library_plugin..md#sec:java_library_configurations_graph)
+- **_custom_**: para les interesades dejamos un artículo que explica [cómo definir configuraciones propias extendiendo el modelo de Gradle](https://docs.gradle.org/current/userguide/declaring_dependencies..md)
 
 ## Resumen general del manejo de dependencias de Gradle
 
 ![manejo de dependencias de gradle](../images/gradle-dependencias.png)
 
-_Fuente:_ https://docs.gradle.org/current/userguide/dependency_management.html
+_Fuente:_ https://docs.gradle.org/current/userguide/dependency_management..md
 
 Al hacer el build de nuestro proyecto
 
@@ -175,7 +175,7 @@ En este ejemplo
 - y además se agrega JaCoCo (Java Code Coverage), que agrega tareas para poder escribir reportes de porcentaje de cobertura de nuestros tests que luego serán utilizados por sitios que los publican, como [Codecov](https://about.codecov.io/) o [Coveralls](https://coveralls.io/)
 
 <br/>
-Para más información pueden consultar [esta página](https://docs.gradle.org/current/userguide/plugins.html).
+Para más información pueden consultar [esta página](https://docs.gradle.org/current/userguide/plugins..md).
 
 # Tareas
 
@@ -225,7 +225,7 @@ La pregunta que podemos hacernos es: ¿esto cambia algo en mi forma de trabajar?
             └──gradle-wrapper.properties # link a la versión de Gradle que estamos usando
 ```
 
-Para más información pueden ver [esta página](https://docs.gradle.org/current/userguide/gradle_wrapper.html).
+Para más información pueden ver [esta página](https://docs.gradle.org/current/userguide/gradle_wrapper..md).
 
 ## Ejecutando gradle desde la consola
 
@@ -250,11 +250,11 @@ Si queremos ver el árbol de dependencias transitivas, podemos escribir
 
 Para más información recomendamos leer 
 
-- la [documentación oficial del proyecto Gradle](https://docs.gradle.org/current/userguide/userguide.html)
+- la [documentación oficial del proyecto Gradle](https://docs.gradle.org/current/userguide/userguide..md)
 - tenés también una [página de tutoriales de Gradle](https://gradle.org/guides/)
 - un video bastante exhaustivo de personas que trabajan en Gradle: [Getting Started with the Gradle DSL Kotlin](https://www.youtube.com/watch?v=KN-_q3ss4l0) de Paul Merlin & Rodrigo de Oliveira.
 - y un [tutorial sobre Kotlin DSL](https://www.youtube.com/watch?v=zYNbsVv9oN0) de Anton Arhipov
 
 # Links relacionados
 
-- [Página principal de Algoritmos 2](algo2-temario.html)
+- [Página principal de Algoritmos 2](algo2-temario..md)

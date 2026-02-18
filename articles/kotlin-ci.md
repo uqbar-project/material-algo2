@@ -66,7 +66,7 @@ A partir de aquí, cada vez que
   - si anduvo ok, por defecto no recibirás ninguna notificación
 - si es un push directo a la rama principal, actualizará la badge de cobertura de JaCoCo en `.github/badges/jacoco.svg`
 - si es un pull request comentará la cobertura actual luego de aplicar los cambios sugeridos (lo vas a ver en la página del PR mismo)
-- finalmente, subirá a la descripción de esta instancia del action un "artefacto" con un reporte de cobertura generado por JaCoCo en HTML
+- finalmente, subirá a la descripción de esta instancia del action un "artefacto" con un reporte de cobertura generado por JaCoCo en .md
   - los artefactos son archivos que github permite almacenar, junto a logs, junto a un intento de build durante un periodo determinado de tiempo (actualmente un máximo de 90 días, tras lo cual son eliminados)
 
 La principal ventaja: al automatizarlo no tendremos que acordarnos de hacerlo. Queda además registrado si cada commit pasa o no, lo cual nos ayuda a encontrar dónde se originó un error en el código.
@@ -94,4 +94,4 @@ El _badge_ es un indicador visual de cómo resultó el último build, que ubicar
 # Links útiles
 
 * [Video en youtube que explica cómo es la integración continua con Kotlin y Github Actions](https://youtu.be/B6W9QzOutkc)
-* [Volver al menú principal del entorno Kotlin](kotlin-principal.html)
+* [Volver al menú principal del entorno Kotlin](kotlin-principal..md)

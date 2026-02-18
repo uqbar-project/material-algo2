@@ -8,9 +8,9 @@ title: JDK vs. JRE
 Cuando nos piden "instalar Java" (a secas) en nuestra máquina, es importante tener en claro la diferencia entre:
 
 - **JRE** o _Java Runtime Environment_: un conjunto de herramientas que permite ejecutar código compilado en Java. El _environment_ o ambiente donde viven los objetos se implementa con la JVM (_Java Virtual Machine_).
-- **JDK** o _Java Development Kit_: incluye al JRE y además le agrega herramientas propias para desarrollar en Java: el compilador (`javac`), el generador de documentación html para las clases (`javadoc`), el debugger (`jdb`), entre otros.
+- **JDK** o _Java Development Kit_: incluye al JRE y además le agrega herramientas propias para desarrollar en Java: el compilador (`javac`), el generador de documentación .md para las clases (`javadoc`), el debugger (`jdb`), entre otros.
 
-Para tener el listado completo de las herramientas que trae OpenJDK (una de las tantas variantes), recomendamos ingresar a [esta página](https://openjdk.java.net/tools/index.html).
+Para tener el listado completo de las herramientas que trae OpenJDK (una de las tantas variantes), recomendamos ingresar a [esta página](https://openjdk.java.net/tools/index..md).
 
 ## Arquitectura general del entorno Java
 
@@ -38,5 +38,5 @@ Como resultado, nuestros programas pueden ejecutarse utilizando la máquina virt
 
 ## Links relacionados
 
-- [Volver al menú principal del entorno Kotlin](kotlin-principal.html)
-- [Página principal de Algoritmos 2](algo2-temario.html)
+- [Volver al menú principal del entorno Kotlin](kotlin-principal..md)
+- [Página principal de Algoritmos 2](algo2-temario..md)
