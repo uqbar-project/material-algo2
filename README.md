@@ -1,13 +1,13 @@
 ## Software
 
-- [Entorno Kotlin](kotlin-principal.md)
-- [JDK vs. JRE](jdkVsJre.md)
-- [Gradle](gradle.md)
-- [Continuous Integration](kotlin-ci.md)
+- [Entorno Kotlin](articles/kotlin-principal.md)
+- [JDK vs. JRE](articles/jdkVsJre.md)
+- [Gradle](articles/gradle.md)
+- [Continuous Integration](articles/kotlin-ci.md)
 
 ## Páginas
 
-- [Testeo unitario avanzado](kotest-testeo-unitario-avanzado.html)
+- [Testeo unitario avanzado](articles/kotest-testeo-unitario-avanzado.html)
 - [Cómo corregir un error en runtime](https://github.com/uqbar-project/eg-seguros-kotlin), a partir de un ejemplo en github
 
 ## Links
