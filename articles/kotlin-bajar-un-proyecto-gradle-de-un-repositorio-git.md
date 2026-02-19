@@ -7,7 +7,7 @@ También se asume la preexistencia de un proyecto construido con Gradle y public
 
 El proceso tiene los siguientes pasos, que se detallan a continuación:
 
-![Git](../images/languages/git_clone3.png)
+![Git](../images/git_clone3.png)
 
 - Clonar el proyecto desde el repositorio remoto y alojarlo en nuestro espacio de trabajo local.
 - Hacer el build del proyecto Kotlin en IntelliJ tomando como base las definiciones de Gradle.
