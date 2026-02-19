@@ -9,7 +9,7 @@ No todos los archivos deben subirse al repo. Como regla general no deberían sub
 
 ## Archivos a ignorar
 
-Debemos crear un archivo `.gitignore` (que en Wollok se los creó el propio entorno), en la carpeta raíz del proyecto, que debe tener al menos esta lista:
+Debemos crear un archivo `.gitignore` (que en Wollok se los creó el propio entorno), en la carpeta raíz del proyecto. Te dejamos a continuación un ejemplo.
 
 ```bash
 HELP.md

@@ -214,7 +214,7 @@ fun main() {
 }
 ```
 
-Para más información pueden ver [esta página](https://kotlinlang.org/docs/basic-types.md).
+Para más información pueden ver [esta página](https://kotlinlang.org/docs/basic-types.html).
 
 ## Colecciones mutables e inmutables
 
@@ -363,7 +363,7 @@ val ave = Ave(energia = 200) // OK
 
 ## Constructores secundarios
 
-Por lo general solo es necesario definir un constructor por defecto, pero en caso de que lo necesites te dejamos [este artículo que explica cómo escribir constructores secundarios](https://kotlinlang.org/docs/classes.md#secondary-constructors).
+Por lo general solo es necesario definir un constructor por defecto, pero en caso de que lo necesites te dejamos [este artículo que explica cómo escribir constructores secundarios](https://kotlinlang.org/docs/classes.html#secondary-constructors).
 
 
 # Herencia y redefinición de métodos
@@ -603,7 +603,7 @@ System.out.println(alumnos.filter { alumno: Alumno -> alumno.estudioso() })
 System.out.println(alumnos.filter { it.estudioso() })
 ```
 
-Para más información pueden consultar [la página oficial de lambdas de Kotlin](https://kotlinlang.org/docs/lambdas.md).
+Para más información pueden consultar [la página oficial de lambdas de Kotlin](https://kotlinlang.org/docs/lambdas.html).
 
 # Manejo de nulls
 
