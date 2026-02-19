@@ -222,7 +222,7 @@ La única cuestión a tener en cuenta aquí es que está bueno que los tests ten
 
 ### Assert
 
-En el **A**ssert indicamos qué esperamos que pase, generalmente asociado a las respuestas que da el envío de un mensaje al objeto testeado. Para esto utilizamos los [matchers](https://kotest.io/docs/assertions/matchers.md) de Kotest.
+En el **A**ssert indicamos qué esperamos que pase, generalmente asociado a las respuestas que da el envío de un mensaje al objeto testeado. Para esto utilizamos los [matchers](https://kotest.io/docs/assertions/matchers.html) de Kotest.
 
 ### "One assert per test"
 
@@ -261,4 +261,4 @@ Este es el resumen de buenas prácticas a la hora de definir tus tests:
 
 - [Video en youtube que explica cobertura y clases de equivalencia en un proyecto Kotlin](https://youtu.be/7rw3SNVI5yY)
 - Si conocés Ruby, te recomendamos [Better specs](http://www.betterspecs.org/)
-- [Página principal de Algoritmos 2](algo2-temario.md)
+- [Página principal de Algoritmos 2](../README.md)
