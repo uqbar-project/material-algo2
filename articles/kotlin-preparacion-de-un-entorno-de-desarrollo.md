@@ -44,7 +44,7 @@ Si no tenés ese programa, no vas a poder pasar tus objetos a código ejecutable
 
 ## IntelliJ IDEA
 
-Nuestro entorno integrado de desarrollo (IDE) permite que en una misma herramienta editemos nuestro código fuente, compilemos, hagamos pruebas, y muchas cosas más. En Algoritmos 1 ya conociste otro IDE: [Eclipse](https://www.eclipse.org/), modificado especialmente para soportar el lenguaje Wollok. Aquí utilizaremos IntelliJ IDEA que tiene muchas similitudes con Eclipse.
+Nuestro entorno integrado de desarrollo (IDE) permite que en una misma herramienta editemos nuestro código fuente, compilemos, hagamos pruebas, y muchas cosas más. En Algoritmos 1 ya conociste otro IDE: [Visual Studio Code](https://code.visualstudio.com/), modificado especialmente para soportar el lenguaje Wollok. Aquí utilizaremos IntelliJ IDEA que tiene muchas similitudes.
 
 ### Pasos de instalación
 
@@ -71,7 +71,7 @@ Necesitarás definir un espacio de trabajo o _workspace_, que es la carpeta dond
 Por lo general no es necesario hacer nada más, solo en algunos casos en los que notes que funciona lento, podés configurar el tamaño de memoria de la Virtual Machine de Java mediante el menú `Help > Custom VM Options`. Esto abre un archivo de texto similar al siguiente
 
 ```ini
--Xms128m
+-Xms512m
 -Xmx2048m
 -XX:ReservedCodeCacheSize=512m
 -XX:+UseConcMarkSweepGC
@@ -91,9 +91,9 @@ Por lo general no es necesario hacer nada más, solo en algunos casos en los que
 Los parámetros que tenés que revisar son:
 
 - la memoria inicial con la que levanta IntelliJ: `Xms`
-- la memoria máxima que puede ser utilizada para IntelliJ, que corre en una Virtual Machine de Java propia: `Xmx`. Por defecto viene con 2GB y para las necesidades de la materia no deberías tener que subirlo, pero en todo caso charlalo con tu docente favorito.
-  + Este parámetro específico puede alterarse más sencillamente mediante el menú `Help > Change Memory Settings`
-    ![image](https://user-images.githubusercontent.com/1235066/225169814-280dcf88-c874-4791-80a3-30e42c16c7d9.png)
+- la memoria máxima que puede ser utilizada para IntelliJ, que corre en una Virtual Machine de Java propia: `Xmx`. Por defecto viene con 2GB y para las necesidades de la materia no deberías tener que subirlo, pero en todo caso charlalo con tu docente favorito. Este parámetro específico puede alterarse más sencillamente mediante el menú `Help > Change Memory Settings`
+
+![image](https://user-images.githubusercontent.com/1235066/225169814-280dcf88-c874-4791-80a3-30e42c16c7d9.png)
 
 Para más información podés chequear [esta página](https://intellij-support.jetbrains.com/hc/en-us/articles/206544869-Configuring-JVM-options-and-platform-properties).
 
@@ -106,7 +106,7 @@ Alternativamente se puede instalar abriendo el menú `File > Settings`, abriendo
 
 ## Plugins de temas (Themes)
 
-Si te interesa configurar un tema de tu interés, podés buscar plugins que contengan la palabra "Theme" en el Marketplace, como se describe en [esta página](https://www.jetbrains.com/help/idea/managing-plugins.md). Luego podrás [seleccionar el tema de tu preferencia](https://www.jetbrains.com/help/idea/user-interface-themes.md#tips).
+Si te interesa configurar un tema de tu interés, podés buscar plugins que contengan la palabra "Theme" en el Marketplace, como se describe en [esta página](https://www.jetbrains.com/help/idea/managing-plugins.html). Luego podrás [seleccionar el tema de tu preferencia](https://www.jetbrains.com/help/idea/user-interface-themes.html#tips).
 
 ## Inlays
 
