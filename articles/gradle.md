@@ -219,7 +219,7 @@ La pregunta que podemos hacernos es: ¿esto cambia algo en mi forma de trabajar?
             └──gradle-wrapper.properties # link a la versión de Gradle que estamos usando
 ```
 
-Para más información pueden ver [esta página](https://docs.gradle.org/current/userguide/gradle_wrapper.md).
+Para más información pueden ver [esta página](https://docs.gradle.org/current/userguide/gradle_wrapper.html).
 
 ## Ejecutando gradle desde la consola
 
@@ -244,7 +244,7 @@ Si queremos ver el árbol de dependencias transitivas, podemos escribir
 
 Para más información recomendamos leer 
 
-- la [documentación oficial del proyecto Gradle](https://docs.gradle.org/current/userguide/userguide.md)
+- la [documentación oficial del proyecto Gradle](https://docs.gradle.org/current/userguide/userguide.html)
 - tenés también una [página de tutoriales de Gradle](https://gradle.org/guides/)
 - un video bastante exhaustivo de personas que trabajan en Gradle: [Getting Started with the Gradle DSL Kotlin](https://www.youtube.com/watch?v=KN-_q3ss4l0) de Paul Merlin & Rodrigo de Oliveira.
 - y un [tutorial sobre Kotlin DSL](https://www.youtube.com/watch?v=zYNbsVv9oN0) de Anton Arhipov
