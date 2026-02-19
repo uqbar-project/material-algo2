@@ -127,7 +127,7 @@ class Flota extends Cliente {
 
 Cuando ejecutamos el test tenemos muy poca información relevante:
 
-![mal nombre de variable](/img/wiki/testeo_mal_nombre_variable.png)
+![mal nombre de variable](../images/testeo_mal_nombre_variable.png)
 
 - la variable `pereyra` no está revelando que es un cliente de flota con muchos autos
 - y tampoco está claro por qué no puede cobrar el siniestro el cliente. 
@@ -162,7 +162,7 @@ class FlotaMuchosAutosTest {
 
 Ahora al fallar el test sabemos más cosas:
 
-![mas expresividad en los tests](/img/wiki/testeo_mas_expresivo_2.png)
+![mas expresividad en los tests](../images/testeo_mas_expresivo_2.png)
 
 - el test con su stack trace, pero también
 - qué es lo que estamos testeando, tratando de no entrar en detalles para no duplicar lo que dice el código
@@ -237,4 +237,4 @@ Este es el resumen de buenas prácticas a la hora de definir tus tests:
 ## Links relacionados
 
 - Si conocés Ruby, te recomendamos [Better specs](http://www.betterspecs.org/)
-- [Página principal de Algoritmos 2](algo2-temario.html)
+- [Página principal de Algoritmos 2](../README.md)
