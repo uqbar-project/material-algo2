@@ -35,4 +35,4 @@ Como resultado, nuestros programas pueden ejecutarse utilizando la máquina virt
 ## Links relacionados
 
 - [Volver al menú principal del entorno Kotlin](kotlin-principal.md)
-- [Página principal de Algoritmos 2](algo2-temario.md)
+- [Página principal de Algoritmos 2](../README.md)

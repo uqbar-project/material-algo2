@@ -113,7 +113,7 @@ Al agregar una dependencia lo hacemos con el formato "group:artifact:version" y 
 
 ![manejo de dependencias de gradle](../images/gradle-dependencias.png)
 
-_Fuente:_ https://docs.gradle.org/current/userguide/dependency_management.md
+_Fuente:_ https://docs.gradle.org/current/userguide/dependency_management.html
 
 Al hacer el build de nuestro proyecto
 
@@ -158,7 +158,7 @@ Podés ver en cualquiera de nuestros ejemplos qué contiene la sección plugins 
 
 ```kotlin
 plugins {
-    kotlin("jvm") version "1.9.22"
+    kotlin("jvm") version "2.3.0"
     jacoco
 }
 ```
@@ -251,4 +251,4 @@ Para más información recomendamos leer
 
 # Links relacionados
 
-- [Página principal de Algoritmos 2](algo2-temario.md)
+- [Página principal de Algoritmos 2](../README.md)
