@@ -87,7 +87,7 @@ Los casos de uso pueden ser útiles para establecer requisitos de comportamiento
 
 Un requerimiento es algo que el sistema debe hacer para lograr el objetivo de un usuario.
 
-[Más sobre requerimientos](conceptos-de-ingenieria-de-software-y-de-sistemas.html)
+[Más sobre requerimientos](conceptos-de-ingenieria-de-software-y-de-sistemas.md)
 
 # Links relacionados
 
