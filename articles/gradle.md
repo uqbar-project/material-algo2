@@ -68,7 +68,7 @@ Las **dependencias** son útiles para poder acceder a códigos escritos por otro
 Ahora bien, ¿desde dónde descargamos las versiones 4.4.3 y 5.1.0 de io.kotest:kotest-assertions-core? Existen para eso **repositorios remotos** donde se publican artefactos:
 
 - **Maven Central**, que es el repositorio principal donde están subidos artefactos publicados con tecnología [Maven](https://maven.apache.org/). Las dependencias más importantes suelen estar en este repositorio y tenés una [página de búsqueda de artefactos](https://search.maven.org/), muy útil cuando necesitamos bajarnos "Mockito", "Log4J", "Kotest" o cualquier otra dependencia.
-- para los proyectos en Kotlin, otro repositorio importante es el de [**Google** (también en Maven)](https://maven.google.com/web/index.md) ya que contiene componentes relacionados con el desarrollo de Android, entre otros.
+- para los proyectos en Kotlin, otro repositorio importante es el de [**Google** (también en Maven)](https://maven.google.com/web/index.html) ya que contiene componentes relacionados con el desarrollo de Android, entre otros.
 - hay eventualmente otros repositorios remotos e incluso podés crear un servidor que funcione como repositorio de artefactos. Podés investigar [Artifactory o JFrog](https://jfrog.com/artifactory/), por el momento es suficiente con saber simplemente desde dónde estamos descargando nuestros componentes.
 
 En el archivo `build.gradle.kts` podés ver cómo se referencian los repositorios remotos:
