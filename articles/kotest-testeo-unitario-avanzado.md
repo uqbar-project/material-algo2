@@ -147,9 +147,6 @@ Ahora al fallar el test sabemos más cosas:
 - el test con su stack trace, pero también
 - qué es lo que estamos testeando, tratando de no entrar en detalles para no duplicar lo que dice el código
 
-<!-- -->
-<br/>
-
 ## AAA Pattern
 
 Los tests suelen estructurarse según el patrón AAA: Arrange, Act y Assert.
@@ -204,11 +201,13 @@ describe("Dada una flota con muchos autos") {
 	val flotaConMuchosAutos = crearFlota(LIMITE_MUCHOS_AUTOS + 1)
 ```
 
-La única cuestión a tener en cuenta aquí es que está bueno que los tests tengan **la mínima lógica posible**, de manera de no estar repitiendo la misma lógica que ya tiene el negocio: la ventaja que tiene escribir `crearFlota(6)` es que si el límite de lo que se considera muchos autos cambia, el test falla y eso puede ser útil.
+La única cuestión a tener en cuenta aquí es que está bueno que los tests tengan **la mínima lógica posible**:
+
+- si la función `crearFlota` se vuelve compleja, ¿no deberíamos testearla?
+- tampoco debemos copiar lógica de dominio en los tests
+- con la llegada de la inteligencia artificial, una tarea tediosa que implica crear objetos complejos se puede automatizar. Parece un contrasentido, pero si el test falla es más fácil entender lo que pasa si todo el código del test está contenido en él y no en funciones auxiliares, o en archivos separados.
 
 > Una heurística posible sobre el setup del test es tratar de mantenerlo simple y de alto nivel, más cercano al lenguaje del dominio que con detalles de implementación. En el ejemplo de arriba se logra con mensajes que se encargan de instanciar objetos de dominio y que esconden la complejidad de conocer la colaboración entre la flota y sus autos). Una alternativa a tener métodos en el test puede ser crear un objeto específico que construya otro objeto, algo que dejaremos para más adelante.
-
-<br>
 
 ### Act
 
