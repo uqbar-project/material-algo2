@@ -22,9 +22,7 @@ Haciendo la aclaración de que hay variantes de Kotlin que no necesitan la JDK (
 
 De esa manera cuando generamos nuestro archivo `.kt` con el código fuente, el compilador automáticamente genera el bytecode asociado (el `.class`, que está en la carpeta `build/classes/kotlin`) utilizando tanto el compilador de Kotlin como las herramientas que trae la JDK.
 
-<br/>
 ![proceso de desarrollo en Kotlin](../images/Kotlin_JDK_JRE.png)
-<br/>
 
 Como estamos trabajando dentro de un IDE, este paso adicional es transparente para nosotros. Solo debemos tener en cuenta que además del plugin de Kotlin, necesitaremos tener instalada una JDK para que el proceso de fondo convierta los archivos `.kt` a `.class`.
 
