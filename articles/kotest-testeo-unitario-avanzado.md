@@ -16,6 +16,7 @@ Un sistema de seguros de automotor define en qué casos se puede pagar un sinies
 
 En base al ejemplo anterior, podemos considerar los siguientes escenarios:
 
+- un cliente normal que no tiene deuda
 - un cliente normal moroso: si debe $ 1 ó $ 50.000 no nos importa, porque está en la misma [clase de equivalencia](http://en.wikipedia.org/wiki/Equivalence_partitioning)
 - una flota con menos de 5 autos (ó 5 autos) => serían "pocos" autos
 - una flota con más de 5 autos => serían "muchos" autos
@@ -48,24 +49,17 @@ Necesitamos
 
 a los que podemos configurar diferentes grados de deuda. Podemos seguir algunas recomendaciones adicionales:
 
-## Agrupar los escenarios en diferentes archivos
+## Agrupación de tests
 
 Por el momento, no tenemos demasiados requerimientos. Entonces vamos a trabajar los tres escenarios desde el mismo archivo, al que llamaremos `CobroSiniestroSpec.kt` para explicitar el caso de uso que estamos testeando.
-
-<br/>
 
 A la hora de diseñar nuestros tests, hay dos ideas que están en tensión
 
 - reutilizar nuestros escenarios, es decir, los objetos que estamos testeando
 - que en cada test quede claro qué objetos participan de esa prueba (lo que se llama SUT, System Under Test)
 
-<!-- -->
-<br>
-
 Por ejemplo, podríamos tener una flota con 6 autos y hacer tests para diferentes casos de uso: el cobro de un siniestro, el valor mensual de la cuota, el horario de atención, etc. El tema es que los tendremos en distintos archivos de test. La reutilización nos lleva a poner las cosas en un solo lugar, por ejemplo definiendo variables de instancia en una superclase común (o cualquier mecanismo que aumenta el alcance de la variable, volviéndola más global). Todo eso dificulta el entendimiento posterior del test, porque el código que se ejecuta previo a él está en varios lugares que además no son fáciles de rastrear. Más abajo veremos qué técnicas podemos utilizar para mantener nuestros tests simples.
 
-<!-- -->
-<br/>
 Cada uno de los escenarios se implementa con un `describe` diferente, entonces tendremos 3 describes:
 
 - uno para clientes normales, 
