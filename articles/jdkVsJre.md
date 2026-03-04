@@ -12,9 +12,7 @@ Para tener el listado completo de las herramientas que trae OpenJDK (una de las 
 
 En este diagrama vemos el proceso de desarrollo de un programa Java desde que lo escribimos hasta que se ejecuta en una máquina (nuestra o de un usuario). Para compilar el programa Java a un código intermedio o _bytecode_ necesitamos el ejecutable `javac`, que viene con el JDK. El archivo `.class` generado puede ser interpretado en cualquier otro sistema operativo, solo necesitamos tener el JRE adecuado. Ejecutamos entonces el programa `java` (o `javaw` en Windows) pasando como argumento nuestro archivo `.class` para que el bytecode sea interpretado al código de la máquina.
 
-<br/>
 ![proceso de JDK](../images/JDKvsJRE.png)
-<br/>
 
 Tu IDE integra todas estas herramientas de manera que cada vez que grabás un archivo Java realiza la compilación para generar el `.class` y ejecutarlo desde el mismo entorno. Por eso recordemos que un IDE es un _Integrated Development Environment_.
 
