@@ -146,7 +146,7 @@ Noten que un proyecto comercial "normal" o mediano, puede incluir decenas y hast
 
 # Plugins
 
-Si bien Gradle provee una plataforma para poder facilitar el manejo de dependencias, el build del proyecto y muchas otras actividades más, quienes verdaderamente se encargan de esta tarea son los **plugins**, que terminan resolviendo cada una de estas cosas.
+Si bien Gradle provee una plataforma para poder facilitar el manejo de dependencias, el build del proyecto y muchas otras actividades más, quienes verdaderamente resuelven las cosas son los **plugins**.
 
 Cada plugin permite
 
@@ -169,7 +169,7 @@ En este ejemplo
 - y además se agrega JaCoCo (Java Code Coverage), que agrega tareas para poder escribir reportes de porcentaje de cobertura de nuestros tests que luego serán utilizados por sitios que los publican, como [Codecov](https://about.codecov.io/) o [Coveralls](https://coveralls.io/)
 
 <br/>
-Para más información pueden consultar [esta página](https://docs.gradle.org/current/userguide/plugins.md).
+Para más información pueden consultar [esta página](https://docs.gradle.org/current/userguide/plugins.html).
 
 # Tareas
 
