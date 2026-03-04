@@ -47,7 +47,7 @@ rootProject.name = "eg-seguros-kotlin"
 
 ## Repositorios locales
 
-Las **dependencias** son útiles para poder acceder a códigos escritos por otros (como la biblioteca [Mockk](https://mockk.io/) o [Apache Commons Collections](https://commons.apache.org/proper/commons-collections/)). Cuando instalamos Gradle, se crea un repositorio local en una carpeta que por defecto suele ser `HOME/.gradle`, donde descargamos los componentes localmente **una sola vez** (muchos proyectos que usan la misma dependencia van a buscar el artefacto en ese mismo lugar). Podemos encontrar al componente cuyo identificador es `io.kotest:kotest-assertions-core:5.1.0` en
+Las **dependencias** son útiles para poder acceder a código escrito por otras personas (como la biblioteca [Mockk](https://mockk.io/) o [Apache Commons Collections](https://commons.apache.org/proper/commons-collections/)). Cuando instalamos Gradle, se crea un repositorio local en una carpeta que por defecto suele ser `HOME/.gradle`, donde descargamos los componentes localmente **una sola vez** (muchos proyectos que usan la misma dependencia van a buscar el artefacto en ese mismo lugar). Podemos encontrar al componente cuyo identificador es `io.kotest:kotest-assertions-core:5.1.0` en
 
 ```bash
 ~/.gradle
@@ -61,7 +61,7 @@ Las **dependencias** son útiles para poder acceder a códigos escritos por otro
 ```
 
 - recordemos que el identificador de un componente se arma a partir del groupId + el artifactId + la versión
-- en la cache de Gradle están todos los componentes que descargamos localmente. Esto permite que cuando estemos trabajando en otro proyecto que comparta la misma dependencia no necesitemos ir a descargarla desde los repositorios. El comportamiento en una máquina Windows es exactamente igual, hay que explorar los directorios incluyendo los que son ocultos, y navegar a partir de la carpeta de usuario + `\.gradle`.
+- en la cache de Gradle están todos los componentes que descargamos localmente. Esto permite que cuando estemos trabajando en otro proyecto que comparta la misma dependencia/versión no necesitemos ir a descargarla nuevamente. El comportamiento en una máquina Windows es exactamente igual, hay que explorar los directorios incluyendo los que son ocultos, y navegar a partir de la carpeta de usuario + `\.gradle`.
 
 ## Repositorios remotos
 
@@ -106,8 +106,8 @@ Al agregar una dependencia lo hacemos con el formato "group:artifact:version" y 
 - **implementation**: el componente es necesario para hacer el _build_ de nuestro proyecto.
 - **testImplementation**: el componente es necesario para ejecutar los tests de nuestro proyecto.
 - **runtimeOnly**: el componente se utiliza únicamente cuando tenemos levantada la aplicación. Esta variante es útil cuando trabajamos con objetos de resguardo (_stubs_ o _mocks_) para ejecutar los tests (`testImplementation`) pero queremos tener un componente real que envía mails en la versión productiva (`runtimeOnly`).
-- otras variantes pueden estudiarse leyendo [la documentación del plugin de Gradle para Java](https://docs.gradle.org/current/userguide/java_library_plugin.md#sec:java_library_configurations_graph)
-- **_custom_**: para les interesades dejamos un artículo que explica [cómo definir configuraciones propias extendiendo el modelo de Gradle](https://docs.gradle.org/current/userguide/declaring_dependencies.md)
+- otras variantes pueden estudiarse leyendo [la documentación del plugin de Gradle para Java](https://docs.gradle.org/current/userguide/java_library_plugin.html#sec:java_library_configurations_graph)
+- **_custom_**: para les interesades dejamos un artículo que explica [cómo definir configuraciones propias extendiendo el modelo de Gradle](https://docs.gradle.org/current/userguide/declaring_dependencies.html)
 
 ## Resumen general del manejo de dependencias de Gradle
 
