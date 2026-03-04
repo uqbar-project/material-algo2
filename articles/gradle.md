@@ -135,7 +135,6 @@ Por ejemplo:
 
 Al resolver las dependencias, el proyectoA necesitará descargar los componentes B, C, D, E y F. Incluso podríamos requerir diferentes versiones de los mismos componentes.
 
-<br/>
 Noten que un proyecto comercial "normal" o mediano, puede incluir decenas y hasta cientos de dependencias. Esto se puede ver en IntelliJ desde la solapa Gradle, e inspeccionar
 
 - **compileClasspath:** dependencias base para compilar los fuentes (que están en `src/main/kotlin`)
@@ -168,7 +167,6 @@ En este ejemplo
 - estamos utilizando una determinada versión del plugin de Kotlin para la JVM, para poder trabajar el proyecto adecuadamente en esa tecnología
 - y además se agrega JaCoCo (Java Code Coverage), que agrega tareas para poder escribir reportes de porcentaje de cobertura de nuestros tests que luego serán utilizados por sitios que los publican, como [Codecov](https://about.codecov.io/) o [Coveralls](https://coveralls.io/)
 
-<br/>
 Para más información pueden consultar [esta página](https://docs.gradle.org/current/userguide/plugins.html).
 
 # Tareas
