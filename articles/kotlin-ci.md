@@ -57,7 +57,7 @@ A partir de aquí, cada vez que
 - clonará tu repositorio
 - hará un checkout del commit que se está evaluando
 - ejecutará los tests, para lo cual previamente tiene que compilar (_buildear_) el proyecto usando Gradle por línea de comando
-- en caso de error, mandará un mail avisando que el build falló (por el momento solo al autor del commit/PR)
+- en caso de error, mandará un mail al autor del commit/PR avisando qué falló. Puede ser que el proyecto no compile o que los tests fallen
   - si anduvo ok, por defecto no recibirás ninguna notificación
 - por último se toma el reporte generado por JaCoCo y se sube como artefacto (en los ejemplos a [Codecov](https://app.codecov.io/gh/) y en el caso de los repositorios privados como artefacto a Github Actions)
 
