@@ -6,6 +6,7 @@
 La integración continua busca automatizar los cambios en el código que escriben varias personas en un proyecto de software. De esa manera
 
 - facilita la experiencia de descargarse un proyecto y hacerlo funcionar localmente en nuestras máquinas
+- favorece que los cambios se integren al producto lo más rápido posible
 - permite la detección temprana de errores, cuando es más fácil resolverlos.
 
 ## Qué necesitamos para implementarla en nuestro proyecto

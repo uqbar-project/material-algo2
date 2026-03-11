@@ -6,7 +6,7 @@ name: build
 # "on" controla cuando se ejecuta la action. En este caso, dispara el workflow
 # ante un evento de "push" o de "pull request", pero solo cuando ocurra
 # en las ramas de nombre "main" o "master". Un PR a "develop", o un commit
-# en un branch sin PRs orientados a esas dos que indicamos no lo activarÃ¡.
+# en un branch sin PRs orientados a esas dos que indicamos no lo activará.
 on:
   push:
     branches: [master, main]
@@ -14,7 +14,7 @@ on:
     branches: [master, main]
 # "jobs" describe los diferentes trabajos a realizar.
 jobs:
-  # En esta ocasiÃ³n tenemos uno solo, para buildear, testear y subir la info de coverage.
+  # En esta ocasión tenemos uno solo, para buildear, testear y subir la info de coverage.
   gradle-plus-coverage:
     # "runs-on" es el encargado de correr el job. En nuestro caso una VM con ubuntu.
     runs-on: ubuntu-latest
@@ -28,12 +28,12 @@ jobs:
       # Configuramos el Java apropiado en nuestro ubuntu.
       - name: Set Up Java
         uses: actions/setup-java@v5
-        # "with" nos deja especificar parametros del action que importamos, tales como versiÃ³n y distribuciÃ³n a usar.
+        # "with" nos deja especificar parámetros del action que importamos, tales como versión y distribución a usar.
         with:
           distribution: 'temurin'
           java-version: '21'
 
-      # TambiÃ©n podemos ejecutar comandos de bash, mediante "run"
+      # También podemos ejecutar comandos de bash, mediante "run"
       - run: |
           chmod +x ./gradlew
 
@@ -45,8 +45,8 @@ jobs:
         run: ./gradlew test jacocoTestReport
 
       # runOnGitHub, mediante jacoco, genera reportes de cobertura en distintos formatos (html, csv, lcov, entre otros).
-      # Con el reporte en formato csv generamos una imagen svg que publica el % de cÃ³digo cubierto por los tests.
-      # Cabe aclarar que esto se crea en el ubuntu de GH Actions (donde corre el CI), pero no se encuentra en el repositorio (todavÃ­a).
+      # Con el reporte en formato csv generamos una imagen svg que publica el % de código cubierto por los tests.
+      # Cabe aclarar que esto se crea en el ubuntu de GH Actions (donde corre el CI), pero no se encuentra en el repositorio (todavía).
       - name: Generate JaCoCo Badge
         uses: cicirello/jacoco-badge-generator@v2
         with:
@@ -56,7 +56,7 @@ jobs:
           jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
 
       # Para persistir el badge de cobertura que generamos, podemos hacer un push a la rama desde el ubuntu.
-      # Siendo ejecutado "por github mismo", tendrÃ¡ permiso para commitear.
+      # Siendo ejecutado "por github mismo", tendrá permiso para commitear.
       - name: Commit and push badge
         # Mediante "if" restringimos para no hacer este paso en un pull request, de forma tal que no se persista
         # el cambio en la medalla tras cada push a la rama final, hasta mergear definitivamente los cambios.
@@ -71,7 +71,7 @@ jobs:
           git push
           fi
 
-      # Â¡Pero en un PR podemos comentar la cobertura! Haremos el chequeo inverso para cubrirlo
+      # ¡Pero en un PR podemos comentar la cobertura! Haremos el chequeo inverso para cubrirlo
       - name: Post coverage summary in PR
         if: ${{ github.event_name == 'pull_request' }}
         uses: madrapps/jacoco-report@v1.7
