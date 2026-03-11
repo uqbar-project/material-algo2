@@ -55,16 +55,11 @@ A partir de aquí, cada vez que
 [Github Actions](https://docs.github.com/es/actions/learn-github-actions/understanding-github-actions) automáticamente hará lo siguiente:
 
 - clonará tu repositorio
-- lo compilará (_build_) en Kotlin mediante el script de Gradle
-- ejecutará los tests
+- hará un checkout del commit que se está evaluando
+- ejecutará los tests, para lo cual previamente tiene que compilar (_buildear_) el proyecto usando Gradle por línea de comando
 - en caso de error, mandará un mail avisando que el build falló (por el momento solo al autor del commit/PR)
   - si anduvo ok, por defecto no recibirás ninguna notificación
-- si es un push directo a la rama principal, actualizará la badge de cobertura de JaCoCo en `.github/badges/jacoco.svg`
-- si es un pull request comentará la cobertura actual luego de aplicar los cambios sugeridos (lo vas a ver en la página del PR mismo)
-- finalmente, subirá a la descripción de esta instancia del action un "artefacto" con un reporte de cobertura generado por JaCoCo en .md
-  - los artefactos son archivos que github permite almacenar, junto a logs, junto a un intento de build durante un periodo determinado de tiempo (actualmente un máximo de 90 días, tras lo cual son eliminados)
-
-La principal ventaja: al automatizarlo no tendremos que acordarnos de hacerlo. Queda además registrado si cada commit pasa o no, lo cual nos ayuda a encontrar dónde se originó un error en el código.
+- por último se toma el reporte generado por JaCoCo y se sube como artefacto (en los ejemplos a [Codecov](https://app.codecov.io/gh/) y en el caso de los repositorios privados como artefacto a Github Actions)
 
 ### Agregando el Badge de Build al README
 
@@ -73,16 +68,10 @@ El _badge_ es un indicador visual de cómo resultó el último build, que ubicar
 - ingresamos a nuestro repositorio, solapa Actions, 
 - elegimos cualquiera de los builds 
 - luego a la derecha hacemos click sobre el botón que tiene los tres puntos: `...`
-- en el menú contextual elegimos la opción "Create Status Badge", elegimos la rama que queremos y
+- en el menú contextual elegimos la opción "Create Status Badge", elegimos la rama principal (`main` o `master`) y
 - presionamos el botón de copia. 
 
-<br>
-<!-- -->
-
 ![Kotlin CI - Crear status badge](../images/kotlin-ci-gh-actions-badge.gif)
-
-<!-- -->
-<br>
 
 - luego vamos al editor, pegamos el texto en el README y pusheamos al repositorio.
 
