@@ -22,7 +22,7 @@ Cuando finalizamos, se genera un proyecto con un archivo `build.gradle.kts`, que
 
 ## Archivo de configuración de Gradle
 
-Te dejamos un archivo con las dependencias base para la cursada de Algoritmos 2 (UNSAM) del aǹo 2025: [build.gradle.kts de ejemplo](algo2.build.gradle.kts). Luego tendrás que
+Te dejamos un archivo con las dependencias base para la cursada de Algoritmos 2 (UNSAM) del aǹo 2026: [build.gradle.kts de ejemplo](algo2.build.gradle.kts). Luego tendrás que
 
 - renombrar el archivo a `build.gradle.kts`
 - copiarlo al directorio raíz de tu proyecto ya creado
